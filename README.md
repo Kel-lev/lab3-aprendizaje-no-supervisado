@@ -3,11 +3,12 @@
 ## Datos de la Asignatura
 - **Asignatura:** Inteligencia Artificial 
 - **Tema:** Clustering y Reducción de Dimensionalidad
+- **Docente**:  LAZO MAMANI, Juan Carlos
 - **Integrantes:** 
 
-Ccorihuaman Delgado, Hamlet Nayeli 
+**Ccorihuaman Delgado, Hamlet Nayeli**
 
-Leva Ayte, Kelma Ivonne
+**Leva Ayte, Kelma Ivonne**
 
 ## Instrucciones de Ejecución
 
