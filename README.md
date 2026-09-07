@@ -4,7 +4,9 @@
 - **Asignatura:** Inteligencia Artificial 
 - **Tema:** Clustering y Reducción de Dimensionalidad
 - **Integrantes:** 
+
 Ccorihuaman Delgado, Hamlet Nayeli 
+
 Leva Ayte, Kelma Ivonne
 
 ## Instrucciones de Ejecución
