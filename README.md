@@ -3,47 +3,44 @@
 ## Datos de la Asignatura
 - **Asignatura:** Inteligencia Artificial 
 - **Tema:** Clustering y Reducción de Dimensionalidad
-- **Integrantes:** Ccorihuaman Delgado, Hamlet Nayeli - Leva Ayte, Kelma Ivonne
+- **Integrantes:** 
+Ccorihuaman Delgado, Hamlet Nayeli 
+Leva Ayte, Kelma Ivonne
 
 ## Instrucciones de Ejecución
 
 ### 1. Instalar dependencias
-
 pip install -r requirements.txt
 
-# 1. Instalar dependencias
-pip install -r requirements.txt
-
-# 2. Generar el dataset sintético
+### 2. Generar el dataset sintético
 python scripts/generate_unsupervised_data.py
 
-# 3. Ejecutar el pipeline completo
+### 3. Ejecutar el pipeline completo
 python main.py
 
 
 ## Comandos de git utilizados
-# 1. Inicializar repositorio local
+### 1. Inicializar repositorio local
 git init
 
-# 2. Agregar archivos al área de preparación (Staging)
+### 2. Agregar archivos al área de preparación (Staging)
 git add .
 
-# 3. Crear el primer commit estructurado
+### 3. Crear el primer commit estructurado
 git commit -m "feat: implementacion pipeline no supervisado PCA y KMeans (Lab03)"
 
-# 4. Cambiar la rama principal a main
+### 4. Cambiar la rama principal a main
 git branch -M main
 
-# 5. Enlazar con el repositorio remoto de GitHub
+### 5. Enlazar con el repositorio remoto de GitHub
 git remote add origin https://github.com/Kel-lev/lab3-aprendizaje-no-supervisado.git
 
-# 6. Subir el código al repositorio remoto
+### 6. Subir el código al repositorio remoto
 git push -u origin main
 
 ## Salida en consola: 
-============================================================
+
  PIPELINE MODULAR DE APRENDIZAJE NO SUPERVISADO 
-============================================================
 
 [0] Cargando y normalizando datos...
 Datos cargados y normalizados
@@ -53,9 +50,8 @@ Datos cargados y normalizados
  -> Varianza Total Conservada: 94.19%
 
 [2] Ejecutando Método del Codo...
-============================================================
  ANÁLISIS DEL MÉTODO DEL CODO
-============================================================
+
 K= 1 | Inercia:    1130.27 | Silhouette: N/A
 K= 2 | Inercia:     458.99 | Silhouette: 0.6211
 K= 3 | Inercia:      56.19 | Silhouette: 0.8212
@@ -66,31 +62,25 @@ K= 7 | Inercia:      27.19 | Silhouette: 0.3902
 K= 8 | Inercia:      24.22 | Silhouette: 0.3877
 K= 9 | Inercia:      21.24 | Silhouette: 0.3858
 K=10 | Inercia:      19.11 | Silhouette: 0.3962
-============================================================
 
 [3] Comparativa de Clusters...
-============================================================
- COMPARATIVA DE CLUSTERS
-============================================================
+
+COMPARATIVA DE CLUSTERS
+
 K=2: Silhouette Score = 0.6211
 K=3: Silhouette Score = 0.8212
 K=5: Silhouette Score = 0.5173
 
 MEJOR K: 3 (Silhouette: 0.8212)
-============================================================
 
-============================================================
  RESUMEN FINAL
-============================================================
+
 K seleccionado: 3
    - Silhouette Score: 0.8212
    - Coherente con el Metodo del Codo
    - Segmentacion interpretable (3 perfiles de cliente)
-============================================================
 
-============================================================
  PIPELINE COMPLETADO EXITOSAMENTE 
-============================================================
 
 ## Imágenes de los Resultados
 
@@ -110,6 +100,8 @@ Esto puede provocar que:
 K-Means se enfoque principalmente en las variables de mayor magnitud.
 Los clusters se formen principalmente según el ingreso, dejando de lado variables importantes como la frecuencia de compra o el puntaje de gasto.
 Por ello, es importante escalar los datos para que todas las variables tengan una influencia más equilibrada.
+
+
 **2.	¿Qué representan geométricamente las dos dimensiones generadas por el PCA respecto a la matriz original de 4 variables?**
 Las dos dimensiones del PCA representan las dos direcciones que mejor resumen la información de los datos originales:
 PC1: Es la dirección que explica la mayor cantidad de variación de los datos.
